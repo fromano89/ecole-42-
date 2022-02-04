@@ -1,0 +1,173 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 /Users/fromano/desktop/Shell00\
+e4r11p1% ls -la\
+total 24\
+drwxr-xr-x  14 fromano  2022_rome    476 Feb  2 19:30 .\
+drwxr-xr-x  16 fromano  2022_rome    544 Feb  2 19:47 ..\
+-rw-r--r--@  1 fromano  2022_rome  10244 Feb  2 18:49 .DS_Store\
+drwxr-xr-x  13 fromano  2022_rome    442 Feb  2 20:19 .git\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:39 ex00\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:29 ex01\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:25 ex02\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:40 ex03\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  1 12:13 ex04\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:41 ex05\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:42 ex06\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:01 ex07\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:02 ex08\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:30 ex09\
+e4r11p1% git log\
+commit 1af924fd94102de926f1473307675c7ae0b05940 (HEAD -> master)\
+Author: Francesco Romano <fromano@e4r11p1.42roma.it>\
+Date:   Wed Feb 2 19:43:32 2022 +0100\
+\
+    secondo invio\
+\
+commit 96ba5588de42bf0b8af9a7bc2a1e20f535641251\
+Author: Francesco Romano <fromano@e4r11p1.42roma.it>\
+Date:   Tue Feb 1 17:53:29 2022 +0100\
+\
+    file01 mod 5 volte\
+e4r11p1% ls -la\
+total 24\
+drwxr-xr-x  14 fromano  2022_rome    476 Feb  2 19:30 .\
+drwxr-xr-x  16 fromano  2022_rome    544 Feb  2 19:47 ..\
+-rw-r--r--@  1 fromano  2022_rome  10244 Feb  2 18:49 .DS_Store\
+drwxr-xr-x  13 fromano  2022_rome    442 Feb  2 20:19 .git\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:39 ex00\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:29 ex01\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:25 ex02\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:40 ex03\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  1 12:13 ex04\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:41 ex05\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:42 ex06\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:01 ex07\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:02 ex08\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 19:30 ex09\
+e4r11p1% rm .git\
+rm: .git: is a directory\
+e4r11p1% rm -rf .git\
+e4r11p1% git init\
+Initialized empty Git repository in /Users/fromano/Desktop/Shell00/.git/\
+e4r11p1% git status\
+On branch master\
+\
+No commits yet\
+\
+Untracked files:\
+  (use "git add <file>..." to include in what will be committed)\
+\
+	.DS_Store\
+	ex00/\
+	ex01/\
+	ex02/\
+	ex03/\
+	ex04/\
+	ex05/\
+	ex06/\
+	ex07/\
+	ex08/\
+	ex09/\
+\
+nothing added to commit but untracked files present (use "git add" to track)\
+e4r11p1% git add --all\
+e4r11p1% git status\
+On branch master\
+\
+No commits yet\
+\
+Changes to be committed:\
+  (use "git rm --cached <file>..." to unstage)\
+\
+	new file:   .DS_Store\
+	new file:   ex00/z\
+	new file:   ex01/testShell00.tar\
+	new file:   ex02/exo2.tar\
+	new file:   ex03/id_rsa_pub\
+	new file:   ex04/midLS\
+	new file:   ex05/git_commit.sh\
+	new file:   ex06/git_ignore.sh\
+	new file:   ex07/b\
+	new file:   ex08/clean\
+	new file:   ex09/ft_magic\
+\
+e4r11p1% git commit -m "secondo e speriamo ben"\
+[master (root-commit) 44e4572] secondo e speriamo ben\
+ Committer: Francesco Romano <fromano@e4r11p1.42roma.it>\
+Your name and email address were configured automatically based\
+on your username and hostname. Please check that they are accurate.\
+You can suppress this message by setting them explicitly:\
+\
+    git config --global user.name "Your Name"\
+    git config --global user.email you@example.com\
+\
+After doing this, you may fix the identity used for this commit with:\
+\
+    git commit --amend --reset-author\
+\
+ 11 files changed, 19 insertions(+)\
+ create mode 100644 .DS_Store\
+ create mode 100644 ex00/z\
+ create mode 100644 ex01/testShell00.tar\
+ create mode 100644 ex02/exo2.tar\
+ create mode 100644 ex03/id_rsa_pub\
+ create mode 100644 ex04/midLS\
+ create mode 100755 ex05/git_commit.sh\
+ create mode 100755 ex06/git_ignore.sh\
+ create mode 100644 ex07/b\
+ create mode 100644 ex08/clean\
+ create mode 100644 ex09/ft_magic\
+e4r11p1% git push git@vogsphere.42roma.it:vogsphere/intra-uuid-a596fd64-2578-4219-bf86-5607731df54e-3977420-fromano master\
+Enumerating objects: 23, done.\
+Counting objects: 100% (23/23), done.\
+Delta compression using up to 6 threads\
+Compressing objects: 100% (9/9), done.\
+Writing objects: 100% (23/23), 2.92 KiB | 2.92 MiB/s, done.\
+Total 23 (delta 2), reused 0 (delta 0)\
+remote: . Processing 1 references\
+remote: Processed 1 references in total\
+To vogsphere.42roma.it:vogsphere/intra-uuid-a596fd64-2578-4219-bf86-5607731df54e-3977420-fromano\
+ * [new branch]      master -> master\
+e4r11p1%\
+Last login: Wed Feb  2 14:43:30 on ttys001\
+e4r11p1% pwd\
+/Users/fromano\
+e4r11p1% cd desktop\
+e4r11p1% cd clone.git\
+e4r11p1% ls -la\
+total 16\
+drwxr-xr-x   3 fromano  2022_rome   102 Feb  2 16:21 .\
+drwxr-xr-x  17 fromano  2022_rome   578 Feb  2 20:23 ..\
+-rw-r--r--@  1 fromano  2022_rome  6148 Feb  2 16:21 .DS_Store\
+e4r11p1% git clone git@vogsphere.42roma.it:vogsphere/intra-uuid-a596fd64-2578-4219-bf86-5607731df54e-3977420-fromano\
+Cloning into 'intra-uuid-a596fd64-2578-4219-bf86-5607731df54e-3977420-fromano'...\
+remote: Enumerating objects: 23, done.\
+remote: Counting objects: 100% (23/23), done.\
+remote: Compressing objects: 100% (9/9), done.\
+remote: Total 23 (delta 2), reused 0 (delta 0)\
+Receiving objects: 100% (23/23), done.\
+Resolving deltas: 100% (2/2), done.\
+e4r11p1% cd intra-uuid-a596fd64-2578-4219-bf86-5607731df54e-3977420-fromano\
+e4r11p1% ls -la\
+total 24\
+drwxr-xr-x  14 fromano  2022_rome    476 Feb  2 20:26 .\
+drwxr-xr-x   4 fromano  2022_rome    136 Feb  2 20:26 ..\
+-rw-r--r--   1 fromano  2022_rome  10244 Feb  2 20:26 .DS_Store\
+drwxr-xr-x  12 fromano  2022_rome    408 Feb  2 20:26 .git\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 20:26 ex00\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 20:26 ex01\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 20:26 ex02\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 20:26 ex03\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 20:26 ex04\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 20:26 ex05\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 20:26 ex06\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 20:26 ex07\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 20:26 ex08\
+drwxr-xr-x   3 fromano  2022_rome    102 Feb  2 20:26 ex09\
+e4r11p1%}
